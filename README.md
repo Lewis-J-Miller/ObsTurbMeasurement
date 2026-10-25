@@ -8,3 +8,11 @@ Miller, L. J. et al. (2026), The turbulence driving mode in NGC7793 and NGC1313,
 Please also cite the specific software release used in your analysis.
 
 The roving kernel implementation builds on the method described by Gerrard et al. (2023). Please also cite the original methodological work where appropriate.
+
+# Installation
+
+git clone https://github.com/u7120874/ObsTurbMeasurement.git
+cd spectral_cube_plus
+pip install .
+
+Package dependencies include; 
