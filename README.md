@@ -29,13 +29,9 @@ Package dependencies include; `numpy`, `matplotlib`, `astropy`, `cfpack`, `scipy
 # Usage Information
 The main function in this package is the `RovingKernel()` function (or it's multi-process equivalent, `RovingKernel_MP()`), which measures the turbulence driving parameter, $b$, alongside other turbulent parameters useful in understanding the turbulence in the ISM. More details of the underlying physics are provided in Miller et al. (2026) and Gerrard et al. (2023). 
 
-
-Inline test: $`b`$
-
-Display test:
-
-```math
-b = \frac{1}{2}
-```
+`RovingKernel()` has slightly different returns depending on the exact process selected, however the default method (using the linewidth map) returns the following (and in this order); 
+1. A map of $b$, the turbulence driving parameter, measured as $b=\sigma_{\rho/\rho_0} / \mathcal{M}$
+2. A map of $\mathcal{M}$, the sonic Mach number (assuming a constant soundspeed, default of 0.6km/s)
+3. A map of $\sigma_{\rho/\rho_0}$, the volumetric, turbulence-isolated density dispersion measured for each kernel
 
 
