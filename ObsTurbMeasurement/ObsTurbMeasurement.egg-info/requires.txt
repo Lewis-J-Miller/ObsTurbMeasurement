@@ -1,0 +1,7 @@
+numpy
+scipy
+astropy
+matplotlib
+spectral-cube
+Spectral-cube-plus
+cfpack

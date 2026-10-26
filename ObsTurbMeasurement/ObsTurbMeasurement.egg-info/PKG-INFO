@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: ObsTurbMeasurement
+Version: 0.1.0
+Summary: Utilities for galaxy turbulence and star formation analysis
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: astropy
+Requires-Dist: matplotlib
+Requires-Dist: spectral-cube
+Requires-Dist: spectral-cube-plus
+Requires-Dist: cfpack
