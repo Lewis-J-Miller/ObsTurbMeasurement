@@ -40,4 +40,6 @@ The main function in this package is the `RovingKernel()` function (or it's mult
 
 These results are different for `mommapmethod="Mom1"` - i.e., using the moment-1 smoothing and measurement to determine the velocity dispersion. The only difference in output is output number 6, the $\sigma_{v,LW}$, which becomes $\sigma_{v,1D}$, derived from kernel-smoothing and subtraction of the moment 1 map, which is a different measure than the linewidth measure. c.f., Stewart and Federrath (2022). 
 
+Inputs for this function is detailed in the example and the documentation, however it is recommended to use SpectralCube_plus to derive moment maps (and the linewidth map) to input into this into the various functions. Alongside the `RovingKernel()` functions, there are some useful functions which can assist with the setup and can be adapted for each science application. 
+
 
